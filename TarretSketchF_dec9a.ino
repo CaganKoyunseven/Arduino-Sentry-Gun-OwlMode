@@ -50,7 +50,7 @@ void setup() {
   delay(200);
   tone(BuzzerPin, 1000, 200);
 
-  // Kalibrasyon
+  
   long StartTime = millis();
   while(millis() - StartTime < 3000){
     int tempLeft = MeasureDistance(LeftTrig, LeftEcho);
